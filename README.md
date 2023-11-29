@@ -13,7 +13,7 @@
 URLに飛ぶ
 ```
 
-https://github.com/isiyakiimo3gou/robosys2023.git
+git clone https://github.com/isiyakiimo3gou/robosys2023.git
 
 ```
 
@@ -49,7 +49,7 @@ seqがないと値が出力されないので必ず入力する
 URLに飛ぶ
 ```
 
-https://github.com/isiyakiimo3gou/robosys2023.git
+git clone https://github.com/isiyakiimo3gou/robosys2023.git
 
 ```
 
@@ -91,6 +91,6 @@ $./pitagorasu 3 4
 
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます.
 * このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て一部自身の著作としたものです．
-	* [ryuichiueda/my_slides/robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
+	* [ryuichiueda/my_slides/robosys_t2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
 
 © 2023 hitokoto takumi
