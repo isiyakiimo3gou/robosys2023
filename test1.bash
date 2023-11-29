@@ -10,21 +10,21 @@ ng () {
 res=0
 
 ### I/O TEST ###
-out=$(./pitagorasu 3 4)
+out=$(./pythagoras 3 4)
 [ "${out}" = 5.0 ] || ng ${LINENO}
 
-out=$(./pitagorasu 5 12)
+out=$(./pythagoras 5 12)
 [ "${out}" = 13.0 ] || ng ${LINENO}
 
-out=$(./pitagorasu 3)
+out=$(./pythagoras 3)
 [ "$?" = 1 ] || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
-out=$(echo | ./pitagorasu )
+out=$(echo | ./pythagoras )
 [ "$?" = 1 ] || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
-out=$(./pitagorasu)
+out=$(./pythagoras)
 [ "$?" = 1 ] || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
