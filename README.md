@@ -4,7 +4,7 @@
 
 このリポジトリは千葉工業大学ロボットシステム学の授業で使用している
 
-今回はplus,pitagorasuの２つのコマンドが使用可能
+今回はplus,pythagorasの２つのコマンドが使用可能
 
 ## plusコマンド
 
@@ -13,11 +13,11 @@
 ディレクトリにクローンし、リポジトリを複製する
 ```
 
-git clone https://github.com/isiyakiimo3gou/robosys2023.git
+$git clone https://github.com/isiyakiimo3gou/robosys2023.git
 
 ```
 
-Ubuntuの端末に入力する
+同じディレクトリに入力する
 ```
 
 $cd robosys2023
@@ -38,7 +38,7 @@ $seq 5 | ./plus
 
 ```
 
-## pitagorasuコマンド
+## pythagorasコマンド
 
 ### インストール方法
 
@@ -46,11 +46,11 @@ $seq 5 | ./plus
 ディレクトリにクローンし、リポジトリを複製する
 ```
 
-git clone https://github.com/isiyakiimo3gou/robosys2023.git
+$git clone https://github.com/isiyakiimo3gou/robosys2023.git
 
 ```
 
-Ubuntuの端末に入力する
+同じディレクトリに入力する
 ```
 
 $cd robosys2023
@@ -65,7 +65,7 @@ $cd robosys2023
 
 ```
 
-$./pitagorasu 3 4
+$./pythagoras 3 4
 5.0
 
 ```
