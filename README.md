@@ -6,7 +6,7 @@
 
 今回はplus,pitagorasuの２つのコマンドが使用可能
 
-## plus
+## plusコマンド
 
 ### インストール方法
 
@@ -41,7 +41,7 @@ $seq 5 | ./plus
 
 seqがないと値が出力されないので必ず入力する
 
-## pitagorasu
+## pitagorasuコマンド
 
 ### インストール方法
 
@@ -81,5 +81,16 @@ $./pitagorasu 3 4
 
 ## テスト環境
 * Ubuntu 22.04
+
+## 手伝ってくれた人
+
+* 山口敦志 test.ymlのエラーの修正に協力してくれた
+* 平田祥隆 E325が出てきた時の修正してくれた
+
+## ライセンス
+
+* このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます.
+* このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て一部自身の著作としたものです．
+	* [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
 
 © 2023 hitokoto takumi
