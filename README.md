@@ -17,7 +17,7 @@ git clone https://github.com/isiyakiimo3gou/robosys2023.git
 
 ```
 
-Ubuntuの端末にに入力する
+Ubuntuの端末に入力する
 ```
 
 $cd robosys2023
