@@ -12,13 +12,16 @@
 
 URLに飛ぶ
 ```
+
 https://github.com/yossyhira/robosys2023.git
 
 ```
 
 Ubuntu上に入力する
 ```
+
 $cd robosys2023
+
 ```
 plusのコードをコピーして使用する
 
@@ -42,6 +45,21 @@ seqがないと値が出力されないので必ず入力する
 
 ### インストール方法
 
+
+URLに飛ぶ
+```
+
+https://github.com/yossyhira/robosys2023.git
+
+```
+
+Ubuntu上に入力する
+```
+
+$cd robosys2023
+
+```
+pitagorasuのコードをコピーして使用する
 
 ### 使用用途
 
