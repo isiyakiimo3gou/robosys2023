@@ -4,6 +4,7 @@
 
 import sys
 
+
 ans = 0
 
 for line in sys.stdin:
