@@ -10,20 +10,19 @@
 
 ### インストール方法
 
-URLに飛ぶ
+ディレクトリにクローンし、リポジトリを複製する
 ```
 
 git clone https://github.com/isiyakiimo3gou/robosys2023.git
 
 ```
 
-Ubuntu上に入力する
+Ubuntuの端末にに入力する
 ```
 
 $cd robosys2023
 
 ```
-plusのコードをコピーして使用する
 
 
 ### 使用用途
@@ -39,27 +38,24 @@ $seq 5 | ./plus
 
 ```
 
-seqがないと値が出力されないので必ず入力する
-
 ## pitagorasuコマンド
 
 ### インストール方法
 
 
-URLに飛ぶ
+ディレクトリにクローンし、リポジトリを複製する
 ```
 
 git clone https://github.com/isiyakiimo3gou/robosys2023.git
 
 ```
 
-Ubuntu上に入力する
+Ubuntuの端末に入力する
 ```
 
 $cd robosys2023
 
 ```
-pitagorasuのコードをコピーして使用する
 
 ### 使用用途
 
