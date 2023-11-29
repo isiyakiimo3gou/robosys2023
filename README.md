@@ -13,7 +13,7 @@
 URLに飛ぶ
 ```
 
-https://github.com/yossyhira/robosys2023.git
+https://github.com/isiyakiimo3gou/robosys2023.git
 
 ```
 
@@ -49,7 +49,7 @@ seqがないと値が出力されないので必ず入力する
 URLに飛ぶ
 ```
 
-https://github.com/yossyhira/robosys2023.git
+https://github.com/isiyakiimo3gou/robosys2023.git
 
 ```
 
