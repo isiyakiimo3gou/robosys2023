@@ -3,11 +3,11 @@
 # SPDX-License-Identifier: BSD-3-Clause
 import sys
 
-ans = 0   #もともと0.0だったのを0に変更
+ans = 0
 for line in sys.stdin:
     try: 
-        ans += int(line)   #intは文字列を整数に（失敗すると例外発生）
+        ans += int(line)
     except:
-        ans += float(line) 　 
+        ans += float(line) 
 
 print(ans)
