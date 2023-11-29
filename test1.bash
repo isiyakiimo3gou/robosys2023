@@ -17,7 +17,7 @@ out=$(./pitagorasu 5 12)
 [ "${out}" = 13.0 ] || ng ${LINENO}
 
 out=$(./pitagorasu )
-[ "${out}" = "二つの整数が入力されなかったので失敗" ] || ng ${LINENO}
+[ "${out}" = "二つ数字を入力しなかったため失敗しました。" ] || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK        # &&（AND記号）は左側が成功すると右側を実行
 exit $res
