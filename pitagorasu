@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2023 hitokoto takumi takumihit@icloud.com 　　　　　
+# SPDX-License-Identifier: BSD-3-Clause
+import sys
+import math
+
+x = int(sys.argv[1])
+y = int(sys.argv[2])
+
+num = math.sqrt(x*x+y*y)
+
+print(num)
