@@ -16,7 +16,15 @@ out=$(./pitagorasu 3 4)
 out=$(./pitagorasu 5 12)
 [ "${out}" = 13.0 ] || ng ${LINENO}
 
-out=$(echo | ./pitagorasu)
+out=$(./pitagorasu 3)
+[ "$?" = 1 ] || ng ${LINENO}
+[ "${out}" = "" ] || ng ${LINENO}
+
+out=$(echo | ./pitagorasu )
+[ "$?" = 1 ] || ng ${LINENO}
+[ "${out}" = "" ] || ng ${LINENO}
+
+out=$(./pitagorasu)
 [ "$?" = 1 ] || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
