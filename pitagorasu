@@ -4,9 +4,10 @@
 import sys
 import math
 
-x = int(sys.argv[1])
-y = int(sys.argv[2])
-
-num = math.sqrt(x*x+y*y)
-
-print(num)
+try:
+    x = int(sys.argv[1])
+    y = int(sys.argv[2])
+    num = math.sqrt(x*x+y*y)
+    print(num)
+except:
+    print("二つ数字を入力しなかったため失敗しました。")
